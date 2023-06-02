@@ -460,41 +460,41 @@
 
     <style type="text/css">
     /* don't remove. */
-    .about-cover {
-        height: 90.2vh;
+    .page404-cover {
+        /* height: 75vh; */
+        height: 88vh;
+    }
+ 
+    #svgContainer {
+      width: 100%;
+      height: 100%;
+      background-color: #191970;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
     }
 </style>
-<div class="bg-cover pd-header about-cover">
-    <div class="container">
-        <div class="row">
-            <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-                <div class="brand">
-                    <div class="title center-align">
-                        <b>404</b><br>すみません<br>您找的页面跑丢了（
-                    </div>
-                    <div class="title center-align">
-                        试试右上角的<span style="color:blue;font-weight:bold">搜索</span>功能？
-                    </div>
-                    <div class="title center-align">
-                        <a href="/" target="_blank">返回首页</a>
-                    </div>
-                    <div class="description center-align">
-                        继续回去浏览页面8
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-    <script>
-        // 每天切换 banner 图.  Switch banner image every day.
-        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+ 
+ 
+<script src=""></script>
+<script src=""></script>
+ 
+<div class="bg-cover pd-header page404-cover">
+    <div id="svgContainer"></div>
+ 
+    <script type="text/javascript">
+        var svgContainer = document.getElementById('svgContainer');
+        var animItem = bodymovin.loadAnimation({
+          wrapper: svgContainer,
+          animType: 'svg',
+          loop: true,
+          animationData: JSON.parse(animationData)
+        });
     </script>
-
-
+</div>
 
     <footer class="page-footer bg-color">
     
