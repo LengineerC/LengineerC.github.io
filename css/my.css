@@ -1,1 +1,10 @@
 /* Here is your custom css styles. */
+
+@font-face{
+    font-family: 'font1';
+    src: url('../font/font1.ttf');
+}
+
+.diyFont{
+    font-family: 'font1';
+}
