@@ -22,7 +22,7 @@
     
     <style>
         body{
-            background-image: url(https://s2.loli.net/2023/06/01/fTW9ng3QcIz6FAb.jpg);
+            background-image: url(https://cdn.jsdelivr.net/gh/LengineerC/images@latest/bg0.jpg);
             background-repeat:no-repeat;
             background-size: 100% 100%;
             background-attachment:fixed;
@@ -236,22 +236,57 @@
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/tags" class="waves-effect waves-light">
+
       
       <i class="fas fa-hashtag" style="zoom: 0.6;"></i>
       
       <span>标签</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/tags/test">
+          
+          <span>test</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/categories" class="waves-effect waves-light">
+
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
       <span>分类</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/categories/%E6%97%A5%E5%B8%B8">
+          
+          <i class="fas fa-sun" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>日常</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/%E6%8A%80%E6%9C%AF">
+          
+          <i class="fas fa-tools" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>技术文章</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -330,23 +365,59 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/tags" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-hashtag"></i>
+				<i class="fa-fw fas fa-hashtag"></i>
 			
 			标签
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/tags/test " style="margin-left:75px">
+				  
+		          <span>test</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
         <li class="m-nav-item">
 	  
-		<a href="/categories" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-bookmark"></i>
+				<i class="fa-fw fas fa-bookmark"></i>
 			
 			分类
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/categories/%E6%97%A5%E5%B8%B8 " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-sun" style="position: absolute;left:50px" ></i>
+			      
+		          <span>日常</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/%E6%8A%80%E6%9C%AF " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-tools" style="position: absolute;left:50px" ></i>
+			      
+		          <span>技术文章</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -495,6 +566,15 @@
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E6%97%A5%E5%B8%B8/" class="post-category">
+                                日常
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -711,8 +791,8 @@
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/test/" class="post-category">
-                                    test
+                            <a href="/categories/%E6%8A%80%E6%9C%AF/" class="post-category">
+                                    技术
                                 </a>
                             
                             
@@ -758,8 +838,12 @@
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            LengineerC
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%97%A5%E5%B8%B8/" class="post-category">
+                                    日常
+                                </a>
+                            
                             
                         </span>
                     </div>
@@ -934,7 +1018,7 @@
                    order='random'
                    preload='auto'
                    volume='0.2'
-                   list-folded='true'
+                   list-folded='false'
         >
         </meting-js>
     </div>
