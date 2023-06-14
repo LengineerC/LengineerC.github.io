@@ -547,7 +547,7 @@ header .go-back i {
     position: relative;
     display: flex;
     align-items: center;
-    height: 60vh;
+    height: 25vh;
     padding: 0;
     border: 0;
     overflow: hidden;
@@ -583,7 +583,7 @@ header .go-back i {
 
 .bg-cover .container {
     position: relative;
-    color: #fff;
+    color: #cccccc;
     z-index: 2;
 }
 
@@ -598,7 +598,7 @@ header .go-back i {
     font-weight: 300;
     font-size: 1.25rem;
     line-height: 1.4em;
-    color: #eee;
+    color: #dddddd;
 }
 
 .bg-cover .post-title {
@@ -1591,14 +1591,14 @@ thead {
 
 /* about page styles. */
 
-.about-container {
+.-container {
     width: 90%;
     max-width: 1225px;
     margin-top: -60px;
 }
 
 @media only screen and (max-width: 601px) {
-    .about-container {
+    .-container {
         width: 95%;
     }
 }
