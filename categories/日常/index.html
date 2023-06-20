@@ -20,15 +20,6 @@
     <title>分类: 日常 | LengineerC&#39;s blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
-    <style>
-        body{
-            background-image: url(https://cdn.jsdelivr.net/gh/LengineerC/images@latest/bg0.jpg);
-            background-repeat:no-repeat;
-            background-size: 100% 100%;
-            background-attachment:fixed;
-        }
-    </style>
-
 
 
     <!-- bg-cover style     -->
@@ -575,6 +566,7 @@
 <script>
     
       var bannerUrl = "/medias/featureimages/" + Math.floor(Math.random() * 6) + '.jpg';
+      
     
     $('.bg-cover.about-cover').css('background-image', 'url(' + bannerUrl + ')');
 
@@ -598,19 +590,19 @@
                 
                 
                 
-                <a href="/categories/%E6%8A%80%E6%9C%AF/" title="技术: 1">
+                <a href="/categories/%E6%97%A5%E5%B8%B8/" title="日常: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F9EBEA;">技术
+                             chip-active "
+                            style="background-color: #F9EBEA;">日常
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/%E6%97%A5%E5%B8%B8/" title="日常: 1">
+                <a href="/categories/%E6%8A%80%E6%9C%AF/" title="技术: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            style="background-color: #F5EEF8;">日常
+                             chip-default "
+                            style="background-color: #F5EEF8;">技术
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -978,6 +970,14 @@ $(function () {
     
 
     <!-- 雪花特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
+            }
+        </script>
     
 
     <!-- 鼠标星星特效 -->
@@ -990,6 +990,7 @@ $(function () {
             }
         </script>
     
+
 
      
         <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
@@ -1027,9 +1028,9 @@ $(function () {
     <!--腾讯兔小巢-->
     
     
-    <script type="text/javascript" color="176,196,222"
+    <script type="text/javascript" color="240,240,240"
         pointColor="0,0,128" opacity='0.7'
-        zIndex="-1" count="99"
+        zIndex="-1" count="150"
         src="/libs/background/canvas-nest.js"></script>
     
 

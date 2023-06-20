@@ -34,11 +34,15 @@
 }
 
 body {
-    background-color: #B0C4DE;
+        background: url(/medias/bg0.jpg);
+        background-attachment: fixed;
+        margin: 0;
+        color: #021b3d; 
+    /* background-color: #021b3d;
     margin: 0;
     color: #34495e;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto; */
 }
 
 h1 {
