@@ -336,6 +336,7 @@ header .side-nav .mobile-head .logo-name {
     margin-top: -30px;
     padding-left: 10px;
     font-size: 1.3rem;
+
 }
 
 header .side-nav .mobile-head .logo-desc {
@@ -889,7 +890,7 @@ article a {
 
 article a:hover {
     font-weight: bold;
-    color: #42b983;
+    color: #153be2;
     text-decoration: underline;
 }
 
@@ -1058,7 +1059,7 @@ article .article-tags .chip {
     font-weight: 400;
     height: 25px;
     line-height: 24px;
-    color: #fff;
+    color: #ffffff;
     border-radius: 15px;
     margin-right: 5px;
     margin-bottom: 2px;
