@@ -36,3 +36,9 @@
         font-size: 1.2rem;
     }
 }
+
+.uk-alert { margin-bottom: 15px; padding: 10px; background: #ebf7fd; color: #2d7091; border: 1px solid rgba(45, 112, 145, 0.3); border-radius: 4px; text-shadow: 0 1px 0 #ffffff; } 
+.uk-alert-success { background: #e8ece2; color: #659f13; border-left: 6px solid rgba(120, 199, 9); font-weight: 600; } 
+.uk-alert-warning { background: #fafafa; color: rgb(24, 130, 250); border-left: 6px solid rgba(0, 108, 250, 0.904); font-weight: 600; } 
+.uk-alert-danger { background: #f8f8f6; color: #eb360d; border-left: 6px solid #eb360d; font-weight: 600; }
+
