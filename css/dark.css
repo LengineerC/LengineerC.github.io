@@ -64,7 +64,7 @@ body.DarkMode p,
 body.DarkMode pre,
 body.DarkMode .markmap-container svg g div,
 body.DarkMode .read .bg-cover .description {
-    color: rgba(255, 255, 255, 0.6); /*.85为透明度，可依据需求修改*/
+    color: rgba(255, 255, 255, .85); /*.85为透明度，可依据需求修改*/
 }
 body.DarkMode .fArticleTitle, body.DarkMode .fArticleAuthor, body.DarkMode .fArticleUpdate {
     color: rgba(255, 255, 255, 0.6) !important;
@@ -88,11 +88,11 @@ body.DarkMode .prev-next .article-badge {
     background-color: rgba(255, 255, 255, 0.6);
 }
 body.DarkMode header .side-nav .menu-list a {
-    color: rgba(255, 255, 255, 0.6) !important;
+    /* color: rgba(255, 255, 255, 0.6) !important; */
 }
 
 body.DarkMode .mobile-menu-list a i {
-    color: rgba(255, 255, 255, 0.6) !important;
+    /* color: rgba(255, 255, 255, 0.6) !important; */
 }
 body.DarkMode .bg-color {
     background-image:linear-gradient(to right, #3b3b3b 0, rgb(59 59 59) 100%);
