@@ -189,7 +189,7 @@ body.DarkMode table th {
 }
 /*音乐播放器*/
 body.DarkMode .aplayer {
-    background: rgb(42 34 34);
+    background: rgba(42,34,34,.0);
     color: #42b983;
     font-family: Arial,Helvetica,sans-serif;
     margin: 5px;
@@ -201,7 +201,7 @@ body.DarkMode .aplayer {
     -ms-user-select: none;
     user-select: none;
     line-height: normal;
-    position: relative;
+    /* position: relative; */
 }
 body.DarkMode .aplayer .aplayer-list ol li.aplayer-list-light {
     background: #666666;
