@@ -34,8 +34,11 @@
 }
 
 body {
-        background: url(/medias/bg0.jpg);
+        background: url(/medias/images/bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
+        background-size: cover;
         margin: 0;
         color: #021b3d; 
     /* background-color: #021b3d;
@@ -244,6 +247,7 @@ mark {
 }
 
 .card {
+    background-color: rgba(256, 256, 256, .9);
     border-radius: 10px;
     box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
 }
@@ -951,6 +955,7 @@ article .article-content .publish-author {
 }
 
 article .card .card-action {
+    background-color: rgba(256,256,256,.0);
     padding: 10px 15px 10px 18px;
     border-radius: 0 0 8px 8px !important;
 }
@@ -961,7 +966,7 @@ article .article-tags .chip {
     font-weight: 400;
     height: 22px;
     line-height: 22px;
-    color: #fff;
+    color: #ffffff;
     border-radius: 10px;
 }
 
@@ -984,10 +989,12 @@ article .article-tags .chip {
 }
 
 .prev-next .left-badge {
+    background-color: rgba(256,256,256,.9);
     border-radius: 8px 0 8px 0;
 }
 
 .prev-next .right-badge {
+    background-color: rgba(256,256,256,.9);
     border-radius: 0 8px 0 8px;
     right: 10px;
 }
@@ -2043,7 +2050,7 @@ p.search-result-summary{
     /* fix the problem of hidden failure */
     margin-top: 0.4em;
     /* bg color = bg color under block */
-    background: white;
+    /* background: white; */
 }
 
 /*二级菜单*/
