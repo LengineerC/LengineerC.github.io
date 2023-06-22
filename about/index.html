@@ -225,23 +225,11 @@
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/tags" class="waves-effect waves-light">
-
       
       <i class="fas fa-hashtag" style="zoom: 0.6;"></i>
       
       <span>标签</span>
-      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
-    <ul class="sub-nav menus_item_child ">
-      
-      <li>
-        <a href="/tags/test">
-          
-          <span>test</span>
-        </a>
-      </li>
-      
-    </ul>
     
   </li>
   
@@ -354,24 +342,12 @@
         
         <li class="m-nav-item">
 	  
-		<a href="javascript:;">
+		<a href="/tags" class="waves-effect waves-light">
 			
-				<i class="fa-fw fas fa-hashtag"></i>
+			    <i class="fa-fw fas fa-hashtag"></i>
 			
 			标签
-			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
-            <ul  style="background:  ;" >
-              
-                <li>
-
-                  <a href="/tags/test " style="margin-left:75px">
-				  
-		          <span>test</span>
-                  </a>
-                </li>
-              
-            </ul>
           
         </li>
         
@@ -591,7 +567,7 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">2</a></span>
+    <span class="count"><a href="/">3</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -605,7 +581,7 @@
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">1</a></span>
+    <span class="count"><a href="/tags">2</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -621,7 +597,7 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">2</a></span>
+    <span class="count"><a href="/">3</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -635,7 +611,7 @@
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">1</a></span>
+    <span class="count"><a href="/tags">2</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -791,7 +767,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,2,0],
+                data: [0,0,0,0,0,0,0,0,0,0,0,2,1],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -833,7 +809,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"技术","value":1},{"name":"日常","value":1}],
+                data: [{"name":"技术","value":2},{"name":"日常","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -857,7 +833,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["test"]
+                data: ["test","道本语"]
             }
         ],
         yAxis: [
@@ -870,7 +846,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1],
+                data: [1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -990,6 +966,12 @@
             
             <a href="/tags/test/">
                 <span class="chip center-align waves-effect waves-light chip-default">test</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E9%81%93%E6%9C%AC%E8%AF%AD/">
+                <span class="chip center-align waves-effect waves-light chip-default">道本语</span>
             </a>
             
             
