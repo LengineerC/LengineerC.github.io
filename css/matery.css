@@ -98,6 +98,9 @@ hr {
     margin: 20px 0;
     border: 0;
     border-top: 1px solid #ccc;
+	padding: 3px;
+	background: repeating-linear-gradient(135deg, #a2a9b6 0px, #a2a9b6 1px, transparent 1px, transparent 6px);
+    border-bottom: 1px solid #ccc;
 }
 
 blockquote {
