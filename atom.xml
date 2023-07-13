@@ -6,7 +6,7 @@
   <link href="https://lengineerc.github.io/atom.xml" rel="self"/>
   
   <link href="https://lengineerc.github.io/"/>
-  <updated>2023-06-22T08:51:07.679Z</updated>
+  <updated>2023-07-12T05:23:18.198Z</updated>
   <id>https://lengineerc.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://lengineerc.github.io/2023/06/22/Toki-pona-%E9%81%93%E6%9C%AC%E8%AF%AD%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
     <id>https://lengineerc.github.io/2023/06/22/Toki-pona-%E9%81%93%E6%9C%AC%E8%AF%AD%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/</id>
     <published>2023-06-22T05:00:41.000Z</published>
-    <updated>2023-06-22T08:51:07.679Z</updated>
+    <updated>2023-07-12T05:23:18.198Z</updated>
     
     
       
@@ -34,7 +34,7 @@
     
     
     
-    <category term="技术" scheme="https://lengineerc.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="语言" scheme="https://lengineerc.github.io/categories/%E8%AF%AD%E8%A8%80/"/>
     
     
     <category term="道本语" scheme="https://lengineerc.github.io/tags/%E9%81%93%E6%9C%AC%E8%AF%AD/"/>
@@ -46,7 +46,7 @@
     <link href="https://lengineerc.github.io/2023/05/31/Test/"/>
     <id>https://lengineerc.github.io/2023/05/31/Test/</id>
     <published>2023-05-31T05:28:38.000Z</published>
-    <updated>2023-06-22T08:19:31.276Z</updated>
+    <updated>2023-07-12T05:23:42.045Z</updated>
     
     
       
@@ -59,7 +59,7 @@
     
     
     
-    <category term="技术" scheme="https://lengineerc.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="编程" scheme="https://lengineerc.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
     <category term="test" scheme="https://lengineerc.github.io/tags/test/"/>
@@ -71,7 +71,7 @@
     <link href="https://lengineerc.github.io/2023/05/30/hello-world/"/>
     <id>https://lengineerc.github.io/2023/05/30/hello-world/</id>
     <published>2023-05-30T03:39:31.247Z</published>
-    <updated>2023-06-05T07:01:50.637Z</updated>
+    <updated>2023-07-12T14:08:26.508Z</updated>
     
     
       
@@ -86,6 +86,10 @@
     
     <category term="日常" scheme="https://lengineerc.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
     
+    
+    <category term="加密" scheme="https://lengineerc.github.io/tags/%E5%8A%A0%E5%AF%86/"/>
+    
+    <category term="编程" scheme="https://lengineerc.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   

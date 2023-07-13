@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> 技术 </category>
+          <category> 语言 </category>
           
       </categories>
       
@@ -38,7 +38,7 @@
       
       <categories>
           
-          <category> 技术 </category>
+          <category> 编程 </category>
           
       </categories>
       
@@ -67,6 +67,14 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> 加密 </tag>
+            
+            <tag> 编程 </tag>
+            
+        </tags>
       
     </entry>
     
