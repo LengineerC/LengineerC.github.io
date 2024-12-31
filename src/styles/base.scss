@@ -1,0 +1,33 @@
+$textColor:#fff;
+
+//导航栏高度
+$navHeight:60px;
+
+//移动端设备最大宽度
+$mobileMaxWidth:992px;
+
+//Sans&圆体中文
+@font-face {
+    font-family: "CustomFont1";
+    src: url(../assets/fonts/font.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+//浅色主题背景色
+$themeBackgroundColor: #67abffb3;
+
+//深色模式背景主题色
+$themeBackgroundColor-dark: #39395899;
+
+// 文章字体颜色
+$postColor:#001447;
+$postColor-dark:#ffffffcc;
+
+//Nav栏背景色
+// $navBackgroundColor:rgba(211, 236, 255, 0.65);
+$navBackgroundColor:mix($themeBackgroundColor,rgba(0,0,0,0.1),75%);
+
+//Footer背景色
+// $footerBackgroundColor:rgba(178, 196, 210, 0.7);
+$footerBackgroundColor:mix($themeBackgroundColor,rgba(0,0,0,0.1));
