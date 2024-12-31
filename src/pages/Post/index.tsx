@@ -80,12 +80,13 @@ export default function Post() {
     });
 
     //处理因锚点导致的复制链接出错的问题
-    const url=window.location.href;
-    const hashIndex=url.indexOf('#');
-    if(hashIndex!==-1){
-      const newUrl=url.substring(0,hashIndex);
-      setUrl(newUrl);
-    }
+    // const url=window.location.href;
+    // const hashIndex=url.indexOf('#');
+    // if(hashIndex!==-1){
+    //   const newUrl=url.substring(0,hashIndex);
+      
+    //   setUrl(newUrl);
+    // }
 
     return ()=>{
       // unsubscribe();

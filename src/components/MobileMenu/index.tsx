@@ -4,7 +4,7 @@ import { MenuFoldOutlined } from '@ant-design/icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse, faBook, faFileZipper,faLink, faAddressCard, faMusic } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from 'react-router-dom'
-import store from '../../redux/store';
+// import store from '../../redux/store';
 import { useAppSelector } from '../../redux/hooks';
 
 import './index.scss'
@@ -65,7 +65,6 @@ export default function MobileMenu({open,handleMenuClose}: Props) {
     }}
     >
       <Drawer
-      className='custom-drawer'
       open={_open}
       placement='left'
       width={250}
