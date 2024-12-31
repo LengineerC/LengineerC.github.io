@@ -9,7 +9,7 @@
     "time": "2024-07-14 22:21:10",
     "lock": false,
     "password": "",
-    "path": "/posts/714test.md"
+    "path": "./posts/714test.md"
   },
   {
     "id": "test_auto_create1",
@@ -27,7 +27,7 @@
     "time": "2024-06-16 12:22:40",
     "lock": true,
     "password": "114514",
-    "path": "/posts/test_auto_create1.md"
+    "path": "./posts/test_auto_create1.md"
   },
   {
     "id": "test_auto_create",
@@ -46,6 +46,6 @@
     "author": "LengineerC",
     "time": "2024-06-16 12:13:26",
     "lock": false,
-    "path": "/posts/test_auto_create.md"
+    "path": "./posts/test_auto_create.md"
   }
 ]
