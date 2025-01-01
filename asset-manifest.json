@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eafde3b8.css",
-    "main.js": "/static/js/main.8da83cef.js",
+    "main.js": "/static/js/main.a46a809e.js",
     "static/css/892.b54a8896.chunk.css": "/static/css/892.b54a8896.chunk.css",
     "static/js/892.c200830a.chunk.js": "/static/js/892.c200830a.chunk.js",
     "static/css/802.08689853.chunk.css": "/static/css/802.08689853.chunk.css",
@@ -38,13 +38,11 @@
     "static/js/214.c0e785a9.chunk.js": "/static/js/214.c0e785a9.chunk.js",
     "static/js/361.802863e5.chunk.js": "/static/js/361.802863e5.chunk.js",
     "static/media/font.ttf": "/static/media/font.9ae4eacd7b6bfb72abbc.ttf",
-    "static/media/bg1.webp": "/static/media/bg1.77b5476ba4ff982615a8.webp",
-    "static/media/bg0.webp": "/static/media/bg0.6f91f11203c710a7aee4.webp",
     "static/media/notice-card-bg.png": "/static/media/notice-card-bg.1551eb2b66ea2d21b087.png",
     "static/media/avatar.webp": "/static/media/avatar.b9ce8866db06261f5caa.webp",
     "index.html": "/index.html",
     "main.eafde3b8.css.map": "/static/css/main.eafde3b8.css.map",
-    "main.8da83cef.js.map": "/static/js/main.8da83cef.js.map",
+    "main.a46a809e.js.map": "/static/js/main.a46a809e.js.map",
     "892.b54a8896.chunk.css.map": "/static/css/892.b54a8896.chunk.css.map",
     "892.c200830a.chunk.js.map": "/static/js/892.c200830a.chunk.js.map",
     "802.08689853.chunk.css.map": "/static/css/802.08689853.chunk.css.map",
@@ -83,6 +81,6 @@
   },
   "entrypoints": [
     "static/css/main.eafde3b8.css",
-    "static/js/main.8da83cef.js"
+    "static/js/main.a46a809e.js"
   ]
 }
