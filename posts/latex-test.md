@@ -1,10 +1,14 @@
 ---
-title: 'none'
+title: 'Latex test'
 author: 'LengineerC'
 time: '2024-07-14 22:21:10'
 lock: false
 password: ''
 top: false
+categories: 
+  - test
+tags: 
+  - test
 ---
 
 Just a test...

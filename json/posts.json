@@ -19,52 +19,50 @@
     "path": "/posts/toki-pona-guide.md"
   },
   {
-    "id": "714test",
-    "tags": [],
-    "categories": [],
+    "id": "latex-test",
+    "tags": [
+      "test"
+    ],
+    "categories": [
+      "test"
+    ],
     "top": false,
-    "title": "none",
+    "title": "Latex test",
     "author": "LengineerC",
     "time": "2024-07-14 22:21:10",
     "lock": false,
     "password": "",
-    "path": "/posts/714test.md"
+    "path": "/posts/latex-test.md"
   },
   {
-    "id": "test_auto_create1",
+    "id": "lock-test",
     "tags": [
-      "tag1",
-      "tag2"
+      "test"
     ],
     "categories": [
-      "c1",
-      "c3"
+      "test"
     ],
     "top": false,
-    "title": "auto1",
+    "title": "Lock test",
     "author": "LengineerC",
     "time": "2024-06-16 12:22:40",
     "lock": true,
     "password": "114514",
-    "path": "/posts/test_auto_create1.md"
+    "path": "/posts/lock-test.md"
   },
   {
-    "id": "test_auto_create",
+    "id": "style-test",
     "tags": [
-      "tag1",
-      "tag2",
-      "tag3"
+      "test"
     ],
     "categories": [
-      "c1",
-      "c2",
-      "c3"
+      "test"
     ],
-    "top": true,
-    "title": "auto0",
+    "top": false,
+    "title": "Style test",
     "author": "LengineerC",
     "time": "2024-06-16 12:13:26",
     "lock": false,
-    "path": "/posts/test_auto_create.md"
+    "path": "/posts/style-test.md"
   }
 ]
