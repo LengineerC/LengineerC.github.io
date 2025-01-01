@@ -1,4 +1,46 @@
 {
+  "教程": [
+    {
+      "id": "toki-pona-guide",
+      "tags": [
+        "道本语",
+        "语言学",
+        "教程"
+      ],
+      "categories": [
+        "教程",
+        "语言学"
+      ],
+      "top": true,
+      "title": "道本语教程",
+      "author": "LengineerC",
+      "time": "2025-01-01 20:14:46",
+      "lock": false,
+      "password": "",
+      "path": "/posts/toki-pona-guide.md"
+    }
+  ],
+  "语言学": [
+    {
+      "id": "toki-pona-guide",
+      "tags": [
+        "道本语",
+        "语言学",
+        "教程"
+      ],
+      "categories": [
+        "教程",
+        "语言学"
+      ],
+      "top": true,
+      "title": "道本语教程",
+      "author": "LengineerC",
+      "time": "2025-01-01 20:14:46",
+      "lock": false,
+      "password": "",
+      "path": "/posts/toki-pona-guide.md"
+    }
+  ],
   "c1": [
     {
       "id": "test_auto_create1",
